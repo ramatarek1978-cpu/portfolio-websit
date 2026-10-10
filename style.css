@@ -77,14 +77,14 @@ nav a:hover {
 .hero {
     min-height: 85vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 55px;
+    gap: 80px;
     background: linear-gradient(135deg, #F7F3EC, #EAE2D5);
 }
-
 .hero-content {
-    max-width: 600px;
+    flex: 1;
+    max-width: 550px;
 }
 
 .hero-content h1 {
@@ -130,7 +130,9 @@ nav a:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(32, 43, 64, 0.12);
 }
-
+.hero-image {
+    flex: 0 0 auto;
+}
 .hero-image img {
     width: 310px;
     height: 360px;
