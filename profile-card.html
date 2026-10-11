@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rama Alothman | Profile Card</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #101c32, #263c55);
+        }
+
+        .profile-card {
+            width: 100%;
+            max-width: 360px;
+            padding: 35px 25px;
+            text-align: center;
+            background: #fffaf2;
+            border-radius: 22px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .profile-image {
+            width: 125px;
+            height: 125px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #c5a46d;
+            margin-bottom: 18px;
+        }
+
+        h1 {
+            color: #17263d;
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        .role {
+            color: #a17d43;
+            font-weight: bold;
+            margin-bottom: 18px;
+        }
+
+        .bio {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.7;
+            margin-bottom: 22px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 25px;
+        }
+
+        .skills span {
+            background: #e9dfce;
+            color: #26364d;
+            padding: 8px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+
+        .contact-button {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #17263d;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .contact-button:hover {
+            background: #a17d43;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-card">
+        <img
+            src="./rama-avata.png.jpeg"
+            alt="Rama's profile picture"
+            class="profile-image"
+        >
+
+        <h1>Rama Alothman</h1>
+
+        <p class="role">Management Information Systems Student</p>
+
+        <p class="bio">
+            I am interested in business, technology, artificial intelligence,
+            and data analytics. I enjoy learning how technology can help
+            organizations make better decisions.
+        </p>
+
+        <div class="skills">
+            <span>Business</span>
+            <span>Technology</span>
+            <span>Data Analytics</span>
+        </div>
+
+        <a href="mailto:YOUR_EMAIL@example.com" class="contact-button">
+            Contact Me
+        </a>
+    </div>
+</body>
+</html>
